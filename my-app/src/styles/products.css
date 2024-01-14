@@ -1,0 +1,48 @@
+/* products.css */
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh; /* Если нужно растянуть на всю высоту экрана */
+}
+
+.add-product-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; /* Добавьте отступ снизу */
+}
+
+.add-product-btn:hover {
+  background-color: #218838;
+}
+
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+.product-card h3 {
+    margin-bottom: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
